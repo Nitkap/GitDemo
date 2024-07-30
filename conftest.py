@@ -6,6 +6,7 @@ def setup():
     print("I will be executing first")
     yield
     print(" I will execute last")
+    print(" I will execute last")
 
 
 @pytest.fixture()
