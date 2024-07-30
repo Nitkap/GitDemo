@@ -10,6 +10,10 @@ class BaseClass:
         formatter = logging.Formatter("%(asctime)s :%(levelname)s : %(name)s :%(message)s")
         fileHandler.setFormatter(formatter)
 
+        #CHECK FOR GIT > MAKING EDITS
+        print("hi")
+
+
         logger.addHandler(fileHandler)  # filehandler object
 
         logger.setLevel(logging.DEBUG)
